@@ -1,0 +1,59 @@
+@media (max-width: 30rem) {
+  .body {
+    font-size: 1.8rem;
+  }
+  .container {
+    place-items: start;
+  }
+
+  .card {
+    grid-template-columns: 1fr;
+    border-radius: 0;
+    box-shadow: none;
+  }
+
+  .result {
+    border-radius: 0 0 4.8rem 4.8rem;
+    padding: 4.8rem;
+  }
+
+  .title {
+    font-size: 1.8rem;
+  }
+  .comment-primary {
+    font-size: 2.4rem;
+  }
+
+  .comment-secondary {
+    font-size: 1.6rem;
+
+    line-height: 1.5;
+  }
+  .category-wise-scores {
+    gap: 1.6rem;
+  }
+  .category-wise-score {
+    padding: 1.6rem;
+    border-radius: 0.8rem;
+  }
+
+  .icon-and-category > img {
+    margin-right: 1.6rem;
+    width: 2.4rem;
+    height: 2.4rem;
+  }
+
+  .category {
+    font-size: 1.6rem;
+  }
+
+  .category-score {
+    font-size: 1.6rem;
+  }
+  .btn,
+  .btn:link,
+  .btn:visited {
+    font-size: 1.6rem;
+    padding: 2.4rem;
+  }
+}
